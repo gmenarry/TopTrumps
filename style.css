@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Indie+Flower|Sigmar+One&display=swap');
+
+
+body{
+    background-image: url(/img/another.jpg);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+#startUpImg{
+    display: flex;
+    padding-top: 5%;
+}
+
+#text{
+    font-family: 'Sigmar One', cursive;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#CompareBHP{
+    background-color: rgba(0, 0, 0, 0.014);
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    color: aliceblue;
+    border: none;
+}
+#CompareTopSpeed{
+    background-color: rgba(0, 0, 0, 0.014);
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    color: aliceblue;
+    border: none;
+}
